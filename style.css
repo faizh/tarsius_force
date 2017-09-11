@@ -1,0 +1,97 @@
+/* default configuration*/
+/*jangan dihapus Faiz Hermawan*/
+body{
+    margin : 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #373737;
+}
+.clear{
+    float : none;
+    clear : both;
+}
+.center{
+    width : 961px;
+    margin : 0 auto;
+}
+
+/*header configuration*/
+#header{
+    padding : 40px 0;
+}
+
+#header #logo{
+    float : left;
+}
+#header .navigation{
+    float : right;
+}
+#header .navigation ul{
+    list-style-type : none;
+    padding: 0;
+    margin:0;
+}
+#header .navigation ul li{
+    display: inline-block;
+    font-size: 18px;
+}
+#header .navigation ul li a{
+    padding: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#header .navigation ul li a:hover{
+    color: #0b63cc;
+    -webkit-transition: 0.3s time;
+    -moz-transition: 0.3s time;
+    -ms-transition: 0.3s time;
+    -o-transition: 0.3s time;
+    transition: 0.3s time;
+}
+
+
+/* banner configuration */
+#banner{
+    background: url("../images/banner_bg.jpg") no-repeat center center;
+    padding: 115px;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+}
+#banner h1{
+    font-size:44px;
+    text-transform: uppercase;
+}
+#banner h2{
+    font-size:26px;
+    font-weight: normal;
+}
+.btn-primary{
+    border: solid 3px #FFFFFF;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+/*this for our-service*/
+
+#our-services{
+    padding:25px 0;
+}
+#our-services .title-content{
+    font-size: 32px;
+    text-align : center;
+    margin-bottom: 20px;
+}
+#our-services .title-content span{
+    font-family: "Adobe Heiti Std R";
+}
+.content-list .list-services{
+    background: #0a63d2;
+    padding : 15px;
+    float: left;
+    width : 45%;
+}
