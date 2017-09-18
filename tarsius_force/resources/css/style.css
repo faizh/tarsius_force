@@ -26,6 +26,7 @@ body{
 #header .navigation{
     float : right;
     margin-top: 20px;
+    font-family: Prototype;
 }
 #header .navigation ul{
     list-style-type : none;
@@ -62,12 +63,17 @@ body{
 #banner h1{
     font-size:44px;
     text-transform: uppercase;
+    font-family: Orbitron;
 }
 #banner h2{
     font-size:26px;
     font-weight: normal;
+    font-family: Orbitron;
+    margin-bottom: 30px;
 }
 .btn-primary{
+    font-family: Prototype;
+    margin-up:15px;
     border: solid 3px #FFFFFF;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -92,6 +98,7 @@ body{
     padding: 25px 0;
 }
 #our-services .title-content{
+    font-family: Orbitron;
     text-transform: uppercase;
     font-size: 32px;
     text-align: center;
@@ -99,6 +106,7 @@ body{
 }
 #our-services .title-content span{
     text-transform: uppercase;
+    font-family: Orbitron;
 }
 .content-list .list-services{
     background: #0a63d2;
@@ -111,6 +119,7 @@ body{
     float: right;
 }
 .content-list .list-services h2{
+    font-family: Prototype;
     text-transform: uppercase;
     font-size:26px;
     margin-bottom:10px;
@@ -174,8 +183,8 @@ body{
     color: #ffffff;
 }
 #notification-subscribe .large-btn:hover{
-    color: #0a63d2;
-    background: #ffffff;
+    color: #ffffff;
+    background: #373737;
     -webkit-transition: 0.3s time;
     -moz-transition: 0.3s time;
     -ms-transition: 0.3s time;
